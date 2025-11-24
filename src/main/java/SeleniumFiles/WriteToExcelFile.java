@@ -12,9 +12,9 @@ public class WriteToExcelFile {
     public static void writeToExcel(String sheetName) throws IOException {
         Workbook wb = WorkbookFactory.create(new FileInputStream("C:\\Users\\Shekhar\\IdeaProjects\\SeleniumDemo\\src\\main\\resources\\Ninza.xlsx"));
         Sheet sh = wb.createSheet(sheetName);
-        Row r = sh.createRow(0);
-        Cell c = r.createCell(1);
-        Cell c1 = r.createCell(0);
+        Row r = sh.createRow(5);
+        Cell c = r.createCell(5);
+        Cell c1 = r.createCell(6);
         c1.setCellValue("Product Name");
         c.setCellValue("Price");
 //
@@ -27,7 +27,7 @@ public class WriteToExcelFile {
     }
 
     public static void main(String[] args) throws IOException {
-        WriteToExcelFile.writeToExcel("Sheet2");
+        WriteToExcelFile.writeToExcel("NinzaAutomation");
     }
 
 }

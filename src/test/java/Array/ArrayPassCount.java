@@ -6,6 +6,7 @@ public class ArrayPassCount {
     public static int sortArray(int[] ar) {
         int count = 0;
         int temp = 0;
+        System.out.println("Array length: "+ar.length);
         for (int i = 0; i < ar.length-1; i++) {
             for (int j = 0; j < ar.length-i-1; j++) {
                 if (ar[j] > ar[j+1]) {
