@@ -4,108 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23fd0870-ea36-4b25-ba0e-f6f96885d07a" name="Changes" comment="My 6th commit through Intellij">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumFiles/ReadMultiRowExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AnagramPgm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Array/ArrayListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Array/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Interface/ClassInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCodeArray/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SingletonDesign/HealthMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Strings/CountVowelSentence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Strings/ReverseWordOfSentence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_08.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_service_auto_service_annotations_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_36_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_33_4_8_jre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_SparseBitSet_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_17_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_20_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_ci_environment_12_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_core_7_31_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_expressions_18_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_gherkin_7_31_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_gherkin_messages_7_31_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_java_7_31_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_json_formatter_0_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_plugin_7_31_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_datatable_7_31_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_docstring_7_31_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_gherkin_36_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_html_formatter_22_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_junit_xml_formatter_0_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_messages_30_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_pretty_formatter_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_query_14_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_tag_expressions_8_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_teamcity_formatter_0_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_testng_xml_formatter_0_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_usage_formatter_0_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_api_1_53_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_common_1_53_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_context_1_53_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_exporter_logging_1_53_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_1_53_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_common_1_53_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_extension_autoconfigure_1_53_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_extension_autoconfigure_spi_1_53_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_logs_1_53_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_metrics_1_53_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_trace_1_53_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_17_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_27_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_16_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_24_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_5_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_5_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_lite_5_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_5_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jcommander_jcommander_1_83.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jspecify_jspecify_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_4_35_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_4_35_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chromium_driver_4_35_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v137_4_35_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v138_4_35_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v139_4_35_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_4_35_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_4_35_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_http_4_35_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_4_35_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_4_35_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_json_4_35_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_manager_4_35_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_os_4_35_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_4_35_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_4_35_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_4_35_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="23fd0870-ea36-4b25-ba0e-f6f96885d07a" name="Changes" comment="My 7th commit through Intellij">
+      <change afterPath="$PROJECT_DIR$/PropertyFile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumFiles/ReadFromJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumFiles/SalesforceAutomation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumFiles/WriteToJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestNGClasses/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestNGClasses/TestNGTCDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/genericUtilities/ExcelUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/genericUtilities/JavaUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/genericUtilities/WebDriverUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DoubleArray/DoubleArrayClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PalindromeInt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumFiles/WriteToExcelFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumFiles/WriteToExcelFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumFiles/NinzaAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumFiles/NinzaAutomation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/NinzaData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/NinzaData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Array/ArrayPassCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Array/ArrayPassCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Interface/InterfaceChild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Interface/InterfaceChild.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Interface/InterfaceParent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Interface/InterfaceParent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NinzaData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NinzaData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumFiles/WriteToExcelFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumFiles/WriteToExcelFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Array/ArrayPassCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Array/ArrayPassCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Interface/InterfaceChild.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Interface/InterfaceChild.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Interface/InterfaceParent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Interface/InterfaceParent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumFiles/NinzaAutomation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumFiles/NinzaAutomation.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,10 +78,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "GitHubInIntellij",
-    "last_opened_file_path": "C:/Users/Shekhar/IdeaProjects/SeleniumDemo/src/test/LeetCodeArray",
+    "last_opened_file_path": "D:/Framework/sCOOL360",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -182,20 +96,40 @@
       <recent name="C:\Users\Shekhar\IdeaProjects\SeleniumDemo\src\test\LeetCodeArray" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="SeleniumFiles" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadMultiRowExcel">
-    <configuration name="AnagramPgm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnagramPgm" />
-      <module name="SeleniumDemo" />
+  <component name="RunManager" selected="Application.NinzaAutomation">
+    <configuration name="ExcelUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="genericUtilities.ExcelUtility" />
+      <module name="MavenSampleProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="genericUtilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadMultiRowExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SeleniumFiles.ReadMultiRowExcel" />
-      <module name="SeleniumDemo" />
+    <configuration name="JavaUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="genericUtilities.JavaUtility" />
+      <module name="MavenSampleProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="genericUtilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NinzaAutomation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SeleniumFiles.NinzaAutomation" />
+      <module name="MavenSampleProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="SeleniumFiles.*" />
@@ -206,40 +140,194 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleReturnPgm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SampleReturnPgm" />
-      <module name="SeleniumDemo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SampleReturnPgm1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SampleReturnPgm1" />
-      <module name="SeleniumDemo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WriteToExcelFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SeleniumFiles.WriteToExcelFile" />
-      <module name="SeleniumDemo" />
+    <configuration name="BaseClass" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenSampleProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SeleniumFiles.*" />
+          <option name="PATTERN" value="TestNGClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="TestNGClasses" />
+      <option name="MAIN_CLASS_NAME" value="TestNGClasses.BaseClass" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseClass" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenSampleProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNGClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestNGClasses" />
+      <option name="MAIN_CLASS_NAME" value="TestNGClasses.BaseClass" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseClass" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenSampleProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNGClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestNGClasses" />
+      <option name="MAIN_CLASS_NAME" value="TestNGClasses.BaseClass" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseClass" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenSampleProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNGClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestNGClasses" />
+      <option name="MAIN_CLASS_NAME" value="TestNGClasses.BaseClass" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoubleArrayClass.doubleArrayValue" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenSampleProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DoubleArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DoubleArray" />
+      <option name="MAIN_CLASS_NAME" value="DoubleArray.DoubleArrayClass" />
+      <option name="METHOD_NAME" value="doubleArrayValue" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGTCDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenSampleProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNGClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestNGClasses" />
+      <option name="MAIN_CLASS_NAME" value="TestNGClasses.TestNGTCDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGTCDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenSampleProject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNGClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="TestNGClasses" />
+      <option name="MAIN_CLASS_NAME" value="TestNGClasses.TestNGTCDemo" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNgDemo (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenSampleProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNGClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestNGClasses" />
+      <option name="MAIN_CLASS_NAME" value="TestNGClasses.TestNgDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNgDemo (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenSampleProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNGClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestNGClasses" />
+      <option name="MAIN_CLASS_NAME" value="TestNGClasses.TestNgDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNgDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenSampleProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNGClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestNGClasses" />
+      <option name="MAIN_CLASS_NAME" value="TestNGClasses.TestNgDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReadMultiRowExcel" />
-        <item itemvalue="Application.WriteToExcelFile" />
-        <item itemvalue="Application.AnagramPgm" />
-        <item itemvalue="Application.SampleReturnPgm1" />
-        <item itemvalue="Application.SampleReturnPgm" />
+        <item itemvalue="Application.NinzaAutomation" />
+        <item itemvalue="Application.JavaUtility" />
+        <item itemvalue="Application.ExcelUtility" />
+        <item itemvalue="TestNG.DoubleArrayClass.doubleArrayValue" />
+        <item itemvalue="TestNG.TestNGTCDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +348,9 @@
       <workItem from="1763696437785" duration="24211000" />
       <workItem from="1763787353004" duration="12338000" />
       <workItem from="1763878476248" duration="19940000" />
-      <workItem from="1763949649016" duration="15676000" />
+      <workItem from="1763949649016" duration="22291000" />
+      <workItem from="1764040963609" duration="10595000" />
+      <workItem from="1764131231289" duration="27838000" />
     </task>
     <task id="LOCAL-00001" summary="My 1st commit through Intellij">
       <option name="closed" value="true" />
@@ -310,7 +400,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763888051582</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="My 7th commit through Intellij">
+      <option name="closed" value="true" />
+      <created>1763986922815</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1763986922815</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +452,8 @@
     <MESSAGE value="My 3rd commit through Intellij" />
     <MESSAGE value="My 5th commit through Intellij" />
     <MESSAGE value="My 6th commit through Intellij" />
-    <option name="LAST_COMMIT_MESSAGE" value="My 6th commit through Intellij" />
+    <MESSAGE value="My 7th commit through Intellij" />
+    <option name="LAST_COMMIT_MESSAGE" value="My 7th commit through Intellij" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -391,6 +490,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/AnagramPgm.java</url>
           <line>6</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/genericUtilities/ExcelUtility.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
