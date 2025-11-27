@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class ReadFromExcelFile {
     public static void readfromExcel(String sheetName) throws IOException {
-        Workbook wbf = WorkbookFactory.create(new File("C:\\Users\\Shekhar\\IdeaProjects\\SeleniumDemo\\src\\main\\resources\\NinzaData.xlsx"));
+        Workbook wbf = WorkbookFactory.create(new File("C:\\Users\\Shekhar\\IdeaProjects\\SeleniumDemo\\src\\main\\resources\\NinzaTestData.xlsx"));
         Sheet sheet = wbf.getSheet(sheetName);
 //        Row row = sheet.getRow(1);
 //        Cell cell = row.getCell(3);

@@ -7,7 +7,7 @@ import java.io.FileInputStream;
 
 public class ExcelUtility {
         public static String toReadDataFromExcel(String sheetName, int rowNum, int cellNum) throws Throwable {
-            FileInputStream fis = new FileInputStream("./src\\main\\resources\\NinzaData.xlsx");
+            FileInputStream fis = new FileInputStream("./src\\main\\resources\\NinzaTestData.xlsx");
             Workbook wb = WorkbookFactory.create(fis);
             String data = wb.getSheet(sheetName).getRow(rowNum).getCell(cellNum).getStringCellValue();
             //String data = wb.getSheet(sheetName).getRow(rowNum).getCell(cellNum).toString();
@@ -15,7 +15,7 @@ public class ExcelUtility {
             return data;
         }
     public static void toWriteDataToExcel(String sheetName, String value,int rowNum, int cellNum) throws Throwable {
-        FileInputStream fis = new FileInputStream("./src\\main\\resources\\NinzaData.xlsx");
+        FileInputStream fis = new FileInputStream("./src\\main\\resources\\NinzaTestData.xlsx");
         Workbook wb = WorkbookFactory.create(fis);
         wb.getSheet(sheetName).createRow(rowNum).createCell(cellNum).setCellValue(value);
         wb.close();
@@ -23,7 +23,7 @@ public class ExcelUtility {
 
         public int togetRowCount(String sheetName) throws Throwable {
             FileInputStream fis = new
-                    FileInputStream("./src\\main\\resources\\NinzaData.xlsx");
+                    FileInputStream("./src\\main\\resources\\NinzaTestData.xlsx");
             Workbook wb = WorkbookFactory.create(fis);
             int rowCount = wb.getSheet(sheetName).getLastRowNum();
             wb.close();

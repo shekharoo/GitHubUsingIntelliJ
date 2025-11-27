@@ -11,18 +11,31 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class JavaUtility {
+    public static StringBuilder generateRandomStrings() {
+        new Random();
+        StringBuilder sb = new StringBuilder();
+        String str = "ABC012ZXC";
+        int strLen = str.length();
+
+        for(int i = 0; i < strLen; ++i) {
+            int index = (int)((double)strLen * Math.random());
+            sb.append(str.charAt(index));
+        }
+
+        return sb;
+    }
     public static String generateCampaignName()
     {
         //Generate random strings
         Random r = new Random();
         StringBuilder sb = new StringBuilder();
         String s = "Campaign";
-        String s1 = "XYZW";
+        String s1 = "RXYZW";
         char[] c=s1.toCharArray();
         int strLen = c.length;
         for(int i=0;i<strLen;i++)
         {
-            int j = r.nextInt(3);
+            int j = r.nextInt(4);
             char temp=c[i];
             c[i]=c[j];
             c[j]=temp;
@@ -94,6 +107,32 @@ public class JavaUtility {
             sb.append(str.charAt(index));
         }
         return sb;
+    }
+    public static String generateProductName()
+    {
+        StringBuilder sb = new StringBuilder();
+        //Generate random strings
+        Random r = new Random();
+        String s = "PhilipsLED";
+        //String s1 = String.valueOf(r.nextInt(999));
+        String s1 = "XYZW";
+        char[] c=s1.toCharArray();
+        int strLen = c.length;
+        for(int i=0;i<strLen;i++)
+        {
+            int j = r.nextInt(3);
+            char temp=c[i];
+            c[i]=c[j];
+            c[j]=temp;
+            //s+s1.charAt(i);
+        }
+        for(char c1:c)
+        {
+            sb.append(c1);
+        }
+        String s2=sb.toString();
+        return s+s2;
+        // return s+s1;
     }
     public static String extractTextFromPopUp(WebElement ele, String flowName)
     {

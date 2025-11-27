@@ -18,7 +18,7 @@ public class WriteToExcelFile {
         c1.setCellValue("Product Name");
         c.setCellValue("Price");
 //
-        wb.write(new FileOutputStream("C:\\Users\\Shekhar\\IdeaProjects\\SeleniumDemo\\src\\main\\resources\\NinzaData.xlsx"));
+        wb.write(new FileOutputStream("C:\\Users\\Shekhar\\IdeaProjects\\SeleniumDemo\\src\\main\\resources\\NinzaTestData.xlsx"));
 //
 //        System.out.println("Successfully wrote int he file..");
         System.out.println("Successfully written to Excel file!!");

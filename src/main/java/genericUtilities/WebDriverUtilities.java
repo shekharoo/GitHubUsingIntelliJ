@@ -82,7 +82,7 @@ public class WebDriverUtilities {
     }
 
     // Select class
-    public void select(WebElement element, int index) {
+    public static void select(WebElement element, int index) {
         Select sel = new Select(element);
         sel.selectByIndex(index);
     }
@@ -130,12 +130,12 @@ public class WebDriverUtilities {
     }
 
     // Switch To parentWindow
-    public void switchToParentWindow(WebDriver driver, String parentId) {
+    public static void switchToParentWindow(WebDriver driver, String parentId) {
         driver.switchTo().window(parentId);
     }
 
     // Switch To Window
-    public void switchToWindow(WebDriver driver) {
+    public static void switchToWindow(WebDriver driver) {
         Set<String> allids = driver.getWindowHandles();
         for (String id : allids) {
             driver.switchTo().window(id);
@@ -143,11 +143,12 @@ public class WebDriverUtilities {
     }
 
     // Switch To Window using Title
-    public void switchToWindowByTitle(WebDriver driver, String partialTitle) {
+    public static void switchToWindowByTitle(WebDriver driver, String partialTitle) {
         Set<String> allWindows = driver.getWindowHandles();
         for (String win : allWindows) {
             driver.switchTo().window(win);
             if (driver.getTitle().contains(partialTitle)) {
+                System.out.println("Switch to Dialogue box window successful");
                 break;
             }
         }

@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23fd0870-ea36-4b25-ba0e-f6f96885d07a" name="Changes" comment="My 8th commit through Intellij">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/PropertyFile" afterDir="false" />
+    <list default="true" id="23fd0870-ea36-4b25-ba0e-f6f96885d07a" name="Changes" comment="My 9th commit through Intellij">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PropertyFile" beforeDir="false" afterPath="$PROJECT_DIR$/PropertyFile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumFiles/NinzaAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumFiles/NinzaAutomation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumFiles/ReadFromExcelFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumFiles/ReadFromExcelFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumFiles/WriteToExcelFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumFiles/WriteToExcelFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/genericUtilities/ExcelUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/genericUtilities/ExcelUtility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/genericUtilities/JavaUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/genericUtilities/JavaUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NinzaData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NinzaData.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/genericUtilities/WebDriverUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/genericUtilities/WebDriverUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Ninza.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/NinzaData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/NinzaTestData.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/NinzaData1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/PropertyFile" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/PropertyFile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/SeleniumFiles/NinzaAutomation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumFiles/NinzaAutomation.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -343,7 +348,7 @@
       <workItem from="1763949649016" duration="22291000" />
       <workItem from="1764040963609" duration="10595000" />
       <workItem from="1764131231289" duration="29614000" />
-      <workItem from="1764213857353" duration="7443000" />
+      <workItem from="1764213857353" duration="12971000" />
     </task>
     <task id="LOCAL-00001" summary="My 1st commit through Intellij">
       <option name="closed" value="true" />
@@ -409,7 +414,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764176390792</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="My 9th commit through Intellij">
+      <option name="closed" value="true" />
+      <created>1764229541673</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1764229541673</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +468,8 @@
     <MESSAGE value="My 6th commit through Intellij" />
     <MESSAGE value="My 7th commit through Intellij" />
     <MESSAGE value="My 8th commit through Intellij" />
-    <option name="LAST_COMMIT_MESSAGE" value="My 8th commit through Intellij" />
+    <MESSAGE value="My 9th commit through Intellij" />
+    <option name="LAST_COMMIT_MESSAGE" value="My 9th commit through Intellij" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
