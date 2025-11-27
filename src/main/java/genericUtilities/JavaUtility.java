@@ -2,50 +2,84 @@ package genericUtilities;
 
 import org.openqa.selenium.WebElement;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Random;
+import java.util.*;
 
 public class JavaUtility {
     public static String generateCampaignName()
     {
         //Generate random strings
-//        Random r = new Random();
-//        StringBuilder sb = new StringBuilder();
-//        String s = "Campaign_";
-//        String s1 = "5284";
-//        int strLen = s.length();
-//        for(int i=0;i<strLen;i++)
-//        {
-//            int index = (int)((int)strLen*Math.random());
-//            //s+sb.append(s.charAt(index));
-//            s+s1.charAt(index);
-//        }
-
         Random r = new Random();
-        String s = "Campaign_";
+        StringBuilder sb = new StringBuilder();
+        String s = "Campaign";
+        String s1 = "XYZW";
+        char[] c=s1.toCharArray();
+        int strLen = c.length;
+        for(int i=0;i<strLen;i++)
+        {
+            int j = r.nextInt(3);
+            char temp=c[i];
+            c[i]=c[j];
+            c[j]=temp;
+            //s+s1.charAt(i);
+        }
+        for(char c1:c)
+        {
+            sb.append(c1);
+        }
+        String s2=sb.toString();
+        return s+s2;
+        //System.out.println("Combine String: "+s+s2);
+        //System.out.println(Arrays.toString(c));
+
+//        Random r = new Random();
+//        String s = "Campaign";
         //String s1 = "5284";
         //int strLen = s1.length();
         //Random r = new Random();
         //int = r.nextInt();
         //Math.random();
         //int index = (int) strLen*Math.random();
-        String a = String.valueOf(r.nextInt(999));
-        String campaignName = s + a;
+//        String a = String.valueOf(r.nextInt(999));
+//        r.next
+//        String campaignName = s + a;
         //String final = s+a;
 
-        return campaignName;
+        //return campaignName;
+        //return s2;
         }
+
 
     public static String generateOrganizationName()
     {
+        StringBuilder sb = new StringBuilder();
         //Generate random strings
         Random r = new Random();
-        String s = "Qspiders_";
-        String s1 = String.valueOf(r.nextInt(999));
-        return s+s1;
+        String s = "Qspiders";
+        //String s1 = String.valueOf(r.nextInt(999));
+        String s1 = "XYZW";
+        char[] c=s1.toCharArray();
+        int strLen = c.length;
+        for(int i=0;i<strLen;i++)
+        {
+            int j = r.nextInt(3);
+            char temp=c[i];
+            c[i]=c[j];
+            c[j]=temp;
+            //s+s1.charAt(i);
+        }
+        for(char c1:c)
+        {
+            sb.append(c1);
+        }
+        String s2=sb.toString();
+        return s+s2;
+       // return s+s1;
     }
     public static StringBuilder generateRandomMobileNo()
     {
@@ -81,11 +115,49 @@ public class JavaUtility {
         return currDate;
     }
 
-    public static void main(String[] args) throws ParseException {
+    public static void writeToPropertyFile(String key,String value) throws IOException {
+        FileInputStream fis = null;
+        FileOutputStream fos = null;
+        try {
+            fis = new FileInputStream("./src\\main\\resources\\PropertyFile");
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+        Properties prop = new Properties();
+        prop.load(fis);
+        prop.setProperty(key,value);
+
+        try{
+            fos=new FileOutputStream("./src\\main\\resources\\PropertyFile");
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+        prop.store(fos,"File written successfully to Property File!!");
+
+    }
+    public static String getFromPropertyFile(String key) throws IOException {
+        FileInputStream fis = null;
+        try {
+            fis = new FileInputStream("./src\\main\\resources\\PropertyFile");
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+        Properties prop = new Properties();
+        prop.load(fis);
+        String value = prop.getProperty(key);
+        System.out.println("Value: "+value);
+        System.out.println("Value is retrieved from property file successfully!");
+        return value;
+
+    }
+
+    public static void main(String[] args) throws ParseException, IOException {
        //String orgName= JavaUtility.generateOrganizationName();
-        String campName=JavaUtility.generateCampaignName();
+        //String campName=JavaUtility.generateCampaignName();
         //System.out.println(orgName);
-        System.out.println(campName);
+        //System.out.println(campName);
+        String camID=JavaUtility.getFromPropertyFile("CampaignId");
+        System.out.println("CampdID: "+camID);
     }
 
 }
