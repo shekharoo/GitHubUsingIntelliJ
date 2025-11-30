@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-28T13:27:02 IST" name="Suite1" finished-at="2025-11-28T13:27:02 IST" duration-ms="99">
+    <groups>
+    </groups>
+    <test started-at="2025-11-28T13:27:02 IST" name="TestNGDemo" finished-at="2025-11-28T13:27:02 IST" duration-ms="99">
+      <class name="TestNGClasses.BaseClass">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestNGClasses.BaseClass@351d00c0]" started-at="2025-11-28T13:27:02 IST" name="beforeSuite" finished-at="2025-11-28T13:27:02 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforePrintMsg()[pri:0, instance:TestNGClasses.BaseClass@351d00c0]" started-at="2025-11-28T13:27:02 IST" name="beforePrintMsg" finished-at="2025-11-28T13:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforePrintMsg -->
+        <test-method is-config="true" signature="seleniumInitialization()[pri:0, instance:TestNGClasses.BaseClass@351d00c0]" started-at="2025-11-28T13:27:02 IST" name="seleniumInitialization" finished-at="2025-11-28T13:27:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleniumInitialization -->
+        <test-method is-config="true" signature="initiateDBConenction()[pri:0, instance:TestNGClasses.BaseClass@351d00c0]" started-at="2025-11-28T13:27:02 IST" name="initiateDBConenction" finished-at="2025-11-28T13:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDBConenction -->
+        <test-method signature="printMsg()[pri:0, instance:TestNGClasses.BaseClass@351d00c0]" started-at="2025-11-28T13:27:02 IST" name="printMsg" finished-at="2025-11-28T13:27:02 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMsg -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGClasses.BaseClass@351d00c0]" started-at="2025-11-28T13:27:02 IST" name="closeBrowser" finished-at="2025-11-28T13:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initiateDBConenction()[pri:0, instance:TestNGClasses.BaseClass@351d00c0]" started-at="2025-11-28T13:27:02 IST" name="initiateDBConenction" finished-at="2025-11-28T13:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDBConenction -->
+        <test-method signature="printMsg1()[pri:0, instance:TestNGClasses.BaseClass@351d00c0]" started-at="2025-11-28T13:27:02 IST" name="printMsg1" finished-at="2025-11-28T13:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMsg1 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGClasses.BaseClass@351d00c0]" started-at="2025-11-28T13:27:02 IST" name="closeBrowser" finished-at="2025-11-28T13:27:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNGClasses.BaseClass@351d00c0]" started-at="2025-11-28T13:27:02 IST" name="afterClass" finished-at="2025-11-28T13:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGClasses.BaseClass@351d00c0]" started-at="2025-11-28T13:27:02 IST" name="afterTest" finished-at="2025-11-28T13:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestNGClasses.BaseClass@351d00c0]" started-at="2025-11-28T13:27:02 IST" name="afterSuite" finished-at="2025-11-28T13:27:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestNGClasses.BaseClass -->
+    </test> <!-- TestNGDemo -->
+  </suite> <!-- Suite1 -->
+</testng-results>

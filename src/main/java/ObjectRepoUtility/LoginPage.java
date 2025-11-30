@@ -47,6 +47,13 @@ public class LoginPage {
         this.pswd = pswd;
     }
 
+    public void loginToNinza(String username,String password)
+    {
+        uname.sendKeys(username);
+        pswd.sendKeys(password);
+        submit.click();
+    }
+
 
 
 

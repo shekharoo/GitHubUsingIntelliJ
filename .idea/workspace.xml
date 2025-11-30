@@ -4,45 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23fd0870-ea36-4b25-ba0e-f6f96885d07a" name="Changes" comment="My 10th commit through Intellij">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/ContactsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/CreateCampaignsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/CreateContactsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/CreateProductsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/ProductsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/SelectCampaignsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StepDefinitions/LoginFeature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNGClasses/TestNGDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DoubleArray/DataProviderWithoutTestNG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DoubleArray/ParametersTestNG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DoubleArray/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DoubleArray/TestNGDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/DemoRun.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/TestNGRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/SampleGetRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/SamplePutRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Streams/StreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="23fd0870-ea36-4b25-ba0e-f6f96885d07a" name="Changes" comment="My 11th commit through Intellij">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/ContactsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/ContactsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/CreateCampaignsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/CreateCampaignsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumFiles/NinzaAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumFiles/NinzaAutomation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestNGClasses/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNGClasses/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestNGClasses/TestNGTCDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNGClasses/TestNGTCDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/genericUtilities/WebDriverUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/genericUtilities/WebDriverUtilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/PropertyFile" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/PropertyFile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Array/ArrayPassCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Array/ArrayPassCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DoubleArray/DoubleArrayClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DoubleArray/DoubleArrayClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Ninza.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NinzaData.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NinzaData1.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/SeleniumFiles/NinzaAutomation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumFiles/NinzaAutomation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumFiles/ReadFromExcelFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumFiles/ReadFromExcelFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumFiles/WriteToExcelFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumFiles/WriteToExcelFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Array/ArrayPassCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Array/ArrayPassCount.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +95,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestNGRun">
+  <component name="RunManager" selected="Application.NinzaAutomation">
+    <configuration name="NinzaAutomation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SeleniumFiles.NinzaAutomation" />
+      <module name="MavenSampleProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumFiles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BaseClass" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenSampleProject" />
       <extension name="coverage">
@@ -212,23 +195,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGDataProvider (3)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MavenSampleProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DoubleArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DoubleArray" />
-      <option name="MAIN_CLASS_NAME" value="DoubleArray.TestNGDataProvider" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestNGDataProvider.createProjectTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenSampleProject" />
       <extension name="coverage">
@@ -292,20 +258,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.NinzaAutomation" />
       <item itemvalue="TestNG.TestNGRun" />
       <item itemvalue="TestNG.ParametersTestNG" />
       <item itemvalue="TestNG.ParametersTestNG.details" />
       <item itemvalue="TestNG.TestNGDataProvider (1)" />
-      <item itemvalue="TestNG.TestNGDataProvider (3)" />
       <item itemvalue="TestNG.TestNGDataProvider.createProjectTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NinzaAutomation" />
         <item itemvalue="TestNG.ParametersTestNG.details" />
         <item itemvalue="TestNG.ParametersTestNG" />
         <item itemvalue="TestNG.TestNGDataProvider.createProjectTest" />
         <item itemvalue="TestNG.TestNGDataProvider (1)" />
-        <item itemvalue="TestNG.TestNGDataProvider (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +300,7 @@
       <workItem from="1764388106370" duration="8114000" />
       <workItem from="1764433598303" duration="4136000" />
       <workItem from="1764439312811" duration="271000" />
-      <workItem from="1764488822242" duration="7182000" />
+      <workItem from="1764488822242" duration="21442000" />
     </task>
     <task id="LOCAL-00001" summary="My 1st commit through Intellij">
       <option name="closed" value="true" />
@@ -416,7 +382,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764235279179</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="My 11th commit through Intellij">
+      <option name="closed" value="true" />
+      <created>1764501933104</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1764501933104</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +438,8 @@
     <MESSAGE value="My 8th commit through Intellij" />
     <MESSAGE value="My 9th commit through Intellij" />
     <MESSAGE value="My 10th commit through Intellij" />
-    <option name="LAST_COMMIT_MESSAGE" value="My 10th commit through Intellij" />
+    <MESSAGE value="My 11th commit through Intellij" />
+    <option name="LAST_COMMIT_MESSAGE" value="My 11th commit through Intellij" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
