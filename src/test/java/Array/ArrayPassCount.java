@@ -1,6 +1,7 @@
 package Array;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class ArrayPassCount {
     public static int sortArray(int[] ar) {
@@ -23,5 +24,7 @@ public class ArrayPassCount {
         public static void main (String[]args){
             int count=ArrayPassCount.sortArray(new int[]{2, 1, 5, 4});
             System.out.println("No of pass is: "+count);
+//            List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
+//            System.out.println("List is: "+list);
         }
     }

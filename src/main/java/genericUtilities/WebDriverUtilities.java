@@ -99,7 +99,7 @@ public class WebDriverUtilities {
 
     // Actions Class
 
-    public void mouseHoverOnWebelemment(WebDriver driver, WebElement element) {
+    public static void mouseHoverOnWebelemment(WebDriver driver, WebElement element) {
         Actions act = new Actions(driver);
         act.moveToElement(element).perform();
     }

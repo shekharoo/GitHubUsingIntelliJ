@@ -4,19 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23fd0870-ea36-4b25-ba0e-f6f96885d07a" name="Changes" comment="My 9th commit through Intellij">
+    <list default="true" id="23fd0870-ea36-4b25-ba0e-f6f96885d07a" name="Changes" comment="My 10th commit through Intellij">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/ContactsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/CreateCampaignsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/CreateContactsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/CreateProductsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/ProductsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/SelectCampaignsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StepDefinitions/LoginFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestNGClasses/TestNGDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DoubleArray/DataProviderWithoutTestNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DoubleArray/ParametersTestNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DoubleArray/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DoubleArray/TestNGDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/DemoRun.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/TestNGRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/SampleGetRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAPI/SamplePutRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Streams/StreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumFiles/NinzaAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumFiles/NinzaAutomation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumFiles/ReadFromExcelFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumFiles/ReadFromExcelFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumFiles/WriteToExcelFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumFiles/WriteToExcelFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/genericUtilities/ExcelUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/genericUtilities/ExcelUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/genericUtilities/JavaUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/genericUtilities/JavaUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestNGClasses/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNGClasses/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestNGClasses/TestNGTCDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNGClasses/TestNGTCDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/genericUtilities/WebDriverUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/genericUtilities/WebDriverUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Ninza.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/NinzaData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/NinzaTestData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/NinzaData1.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/PropertyFile" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/PropertyFile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Array/ArrayPassCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Array/ArrayPassCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DoubleArray/DoubleArrayClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DoubleArray/DoubleArrayClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Ninza.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NinzaData.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NinzaData1.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/SeleniumFiles/NinzaAutomation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumFiles/NinzaAutomation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumFiles/ReadFromExcelFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumFiles/ReadFromExcelFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumFiles/WriteToExcelFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumFiles/WriteToExcelFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Array/ArrayPassCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Array/ArrayPassCount.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,73 +96,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "GitHubInIntellij",
-    "last_opened_file_path": "C:/Users/Shekhar/IdeaProjects/SeleniumDemo/src/main/resources",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.VCS",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;GitHubInIntellij&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Shekhar/IdeaProjects/SeleniumDemo/testng.xml&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Shekhar\IdeaProjects\SeleniumDemo\src\main\resources" />
       <recent name="C:\Users\Shekhar\IdeaProjects\SeleniumDemo\src\test\LeetCodeArray" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="RestAPI" />
+      <recent name="ObjectRepoUtility" />
       <recent name="SeleniumFiles" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NinzaAutomation">
-    <configuration name="ExcelUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="genericUtilities.ExcelUtility" />
-      <module name="MavenSampleProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="genericUtilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="genericUtilities.JavaUtility" />
-      <module name="MavenSampleProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="genericUtilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NinzaAutomation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SeleniumFiles.NinzaAutomation" />
-      <module name="MavenSampleProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumFiles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestNGRun">
     <configuration name="BaseClass" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenSampleProject" />
       <extension name="coverage">
@@ -171,41 +160,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaseClass" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MavenSampleProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestNGClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestNGClasses" />
-      <option name="MAIN_CLASS_NAME" value="TestNGClasses.BaseClass" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BaseClass" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MavenSampleProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestNGClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestNGClasses" />
-      <option name="MAIN_CLASS_NAME" value="TestNGClasses.BaseClass" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DoubleArrayClass.doubleArrayValue" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ParametersTestNG" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenSampleProject" />
       <extension name="coverage">
         <pattern>
@@ -214,8 +169,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="DoubleArray" />
-      <option name="MAIN_CLASS_NAME" value="DoubleArray.DoubleArrayClass" />
-      <option name="METHOD_NAME" value="doubleArrayValue" />
+      <option name="MAIN_CLASS_NAME" value="DoubleArray.ParametersTestNG" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParametersTestNG.details" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenSampleProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DoubleArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DoubleArray" />
+      <option name="MAIN_CLASS_NAME" value="DoubleArray.ParametersTestNG" />
+      <option name="METHOD_NAME" value="details" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -223,16 +195,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGTCDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNGDataProvider (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenSampleProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestNGClasses.*" />
+          <option name="PATTERN" value="DoubleArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestNGClasses" />
-      <option name="MAIN_CLASS_NAME" value="TestNGClasses.TestNGTCDemo" />
+      <option name="PACKAGE_NAME" value="DoubleArray" />
+      <option name="MAIN_CLASS_NAME" value="DoubleArray.TestNGDataProvider" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -240,26 +212,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGTCDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNGDataProvider (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenSampleProject" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestNGClasses.*" />
+          <option name="PATTERN" value="DoubleArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="TestNGClasses" />
-      <option name="MAIN_CLASS_NAME" value="TestNGClasses.TestNGTCDemo" />
-      <option name="GROUP_NAME" value="" />
+      <option name="PACKAGE_NAME" value="DoubleArray" />
+      <option name="MAIN_CLASS_NAME" value="DoubleArray.TestNGDataProvider" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGDataProvider.createProjectTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenSampleProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DoubleArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DoubleArray" />
+      <option name="MAIN_CLASS_NAME" value="DoubleArray.TestNGDataProvider" />
+      <option name="METHOD_NAME" value="createProjectTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGRun" type="TestNG">
+      <module name="MavenSampleProject" />
+      <shortenClasspath name="NONE" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
       <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
@@ -267,64 +265,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNgDemo (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNGRun" type="TestNG" temporary="true">
       <module name="MavenSampleProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestNGClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestNGClasses" />
-      <option name="MAIN_CLASS_NAME" value="TestNGClasses.TestNgDemo" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
-      <listeners />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter2" />
+        <listener class="org.testng.reporters.TestHTMLReporter" />
+        <listener class="org.testng.reporters.FailedReporter" />
+      </listeners>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNgDemo (4)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MavenSampleProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestNGClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestNGClasses" />
-      <option name="MAIN_CLASS_NAME" value="TestNGClasses.TestNgDemo" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNgDemo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MavenSampleProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestNGClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestNGClasses" />
-      <option name="MAIN_CLASS_NAME" value="TestNGClasses.TestNgDemo" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="TestNG.TestNGRun" />
+      <item itemvalue="TestNG.ParametersTestNG" />
+      <item itemvalue="TestNG.ParametersTestNG.details" />
+      <item itemvalue="TestNG.TestNGDataProvider (1)" />
+      <item itemvalue="TestNG.TestNGDataProvider (3)" />
+      <item itemvalue="TestNG.TestNGDataProvider.createProjectTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NinzaAutomation" />
-        <item itemvalue="Application.JavaUtility" />
-        <item itemvalue="Application.ExcelUtility" />
-        <item itemvalue="TestNG.DoubleArrayClass.doubleArrayValue" />
-        <item itemvalue="TestNG.TestNGTCDemo" />
+        <item itemvalue="TestNG.ParametersTestNG.details" />
+        <item itemvalue="TestNG.ParametersTestNG" />
+        <item itemvalue="TestNG.TestNGDataProvider.createProjectTest" />
+        <item itemvalue="TestNG.TestNGDataProvider (1)" />
+        <item itemvalue="TestNG.TestNGDataProvider (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +329,12 @@
       <workItem from="1763949649016" duration="22291000" />
       <workItem from="1764040963609" duration="10595000" />
       <workItem from="1764131231289" duration="29614000" />
-      <workItem from="1764213857353" duration="12971000" />
+      <workItem from="1764213857353" duration="22729000" />
+      <workItem from="1764296992835" duration="24495000" />
+      <workItem from="1764388106370" duration="8114000" />
+      <workItem from="1764433598303" duration="4136000" />
+      <workItem from="1764439312811" duration="271000" />
+      <workItem from="1764488822242" duration="7182000" />
     </task>
     <task id="LOCAL-00001" summary="My 1st commit through Intellij">
       <option name="closed" value="true" />
@@ -422,7 +408,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764229541673</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="My 10th commit through Intellij">
+      <option name="closed" value="true" />
+      <created>1764235279179</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1764235279179</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +463,8 @@
     <MESSAGE value="My 7th commit through Intellij" />
     <MESSAGE value="My 8th commit through Intellij" />
     <MESSAGE value="My 9th commit through Intellij" />
-    <option name="LAST_COMMIT_MESSAGE" value="My 9th commit through Intellij" />
+    <MESSAGE value="My 10th commit through Intellij" />
+    <option name="LAST_COMMIT_MESSAGE" value="My 10th commit through Intellij" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -494,7 +489,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Array/ArrayPassCount.java</url>
-          <line>11</line>
+          <line>12</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -511,6 +506,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/genericUtilities/ExcelUtility.java</url>
           <line>19</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/DoubleArray/DoubleArrayClass.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
