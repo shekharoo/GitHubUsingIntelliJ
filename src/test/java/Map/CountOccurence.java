@@ -13,6 +13,7 @@ public class CountOccurence {
         {
             map.put(ch,map.getOrDefault(ch,0)+1);
         }
+        System.out.println("Map display: "+map);
         //Display character occurences:
         for(Map.Entry<Character,Integer> entry:map.entrySet())
         {
@@ -26,6 +27,8 @@ public class CountOccurence {
         Scanner s = new Scanner(System.in);
         String s1 = s.nextLine();
         CountOccurence.countCharacter(s1);
+        String dir = System.getProperty("user.dir");
+        System.out.println(dir);
 //        String s = "Success";
 //        Map<Character,Integer> map= new HashMap<>();
 //        for(int i=0;i<s.length();i++)

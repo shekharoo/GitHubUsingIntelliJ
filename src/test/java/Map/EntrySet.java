@@ -11,11 +11,18 @@ public class EntrySet {
         map.put("Shekhar",1);
         map.put("Anand",2);
         map.put("Ravi",3);
+        System.out.println(map);
         //Map.Entry<String,Integer> enrty = map.entrySet<String,Integer>;
         Set<String> s = new HashSet<>();
         s.add("Shekhar");
         s.add("Anand");
         s.add("Shekhar");
         System.out.println(s);
+        Set<Map.Entry<String, Integer>> m1 = map.entrySet();
+        System.out.println(m1);
+        for(Map.Entry<String,Integer> m3:map.entrySet())
+        {
+            System.out.println("===Key==="+m3.getKey()+"===Value==="+m3.getValue());
+        }
     }
 }

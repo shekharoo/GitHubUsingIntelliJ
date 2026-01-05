@@ -61,79 +61,58 @@ public class NinzaAutomation extends WebDriverUtilities{
     public static void loginNinza(WebDriver driver) throws InterruptedException, IOException, ParseException {
 
         //WebDriver driver =  NinzaAutomation.launchBrowser();
-        WebDriverUtilities.waitForPageToLoad(driver);
+        //WebDriverUtilities.waitForPageToLoad(driver);
         driver.get(ReadFromJson.readFromJson("url"));
         Thread.sleep(1000);
         LoginPage lp = new LoginPage(driver);
         lp.loginToNinza(ReadFromJson.readFromJson("username"),ReadFromJson.readFromJson("password"));
-//        lp.getUname().sendKeys(ReadFromJson.readFromJson("username"));
-//        lp.getPswd().sendKeys(ReadFromJson.readFromJson("password"));
-//        lp.getSubmit().click();
         System.out.println("Login is Successfull!!");
-        //return driver;
     }
     public static void logoutNinZa(WebDriver driver) throws InterruptedException {
         Thread.sleep(1000);
         WebDriverUtilities.mouseHoverOnWebelemment(driver,hp.getLogOutIcon());
-        //WebDriverUtilities.hp.getLogOutIcon();
-        //WebElement logOut = driver.findElement(By.xpath("//div[@class='user-icon']"));
-        //Actions act = new Actions(driver);
-        //act.moveToElement(logOut).perform();
         Thread.sleep(1000);
         hp.getLogOutLink().click();
-        //driver.findElement(By.xpath("//div[@class='dropdown-item logout']")).click();
         System.out.println("Log Out is Successfull!!");
     }
-    public static String captureCampaignId(WebDriver driver)
+    public static String flowId(WebDriver driver,String flowNameId)
     {
-        List<WebElement> listCamapigns = driver.findElements(By.xpath("//table[@class='table table-striped table-hover']/tbody/tr/td[1]"));
-        String campaignId = listCamapigns.get(0).getText();
-        System.out.println("Campaign id is captured successfully!");
-        return campaignId;
-    }
-    public static String captureContactId(WebDriver driver)
-    {
-        List<WebElement> listContacts = driver.findElements(By.xpath("//table[@class='table table-striped table-hover']/tbody/tr/td[1]"));
-        String contactId = listContacts.get(0).getText();
-        System.out.println("Contact id is captured successfully!");
-        return contactId;
+        List<WebElement> listFLows = driver.findElements(By.xpath("//table[@class='table table-striped table-hover']/tbody/tr/td[1]"));
+        String flowId = listFLows.get(0).getText();
+        System.out.println(flowNameId+"Id is captured successfully!");
+        return flowId;
     }
 
-    public static void verifyCampaign(WebDriver driver) throws InterruptedException, IOException {
+    public static void verifyPopUpAndCreation(WebDriver driver,String flowName) throws InterruptedException, IOException {
         Thread.sleep(1000);
         WebElement popUp =createCampPage.getPopUp();
-        //WebElement popUp = driver.findElement(By.xpath("//div[@class='Toastify']/div/div/div[1]"));
         //Get text of popup
         String popUpText = popUp.getText();
         if(popUp.isDisplayed())
         {
             if(popUpText.contains("Successfully Added")) {
 
-                String campaignName=JavaUtility.extractTextFromPopUp(popUp,"Campaigns");
-                //Store Campaign Name in Property File
-                JavaUtility.writeToPropertyFile("CampaignName",campaignName);
-                System.out.println("Campaign name is: "+campaignName);
-                System.out.println("Create Campaign is Successful!!");
-                //Capture Campaign ID
-                //Thread.sleep(1000);
-                String campaignId = NinzaAutomation.captureCampaignId(driver);
+                popUpText=JavaUtility.extractTextFromPopUp(popUp,flowName);
+                //Store flow Name in Property File
+                JavaUtility.writeToPropertyFile(flowName+"Name",popUpText);
+                System.out.println(flowName+" name is: "+popUpText);
+                System.out.println("Create "+flowName+" is Successful!!");
+                //Capture flow ID
+                String flowNameId = NinzaAutomation.flowId(driver,flowName);
 
-                System.out.println("CampaignId: "+campaignId);
-                //Store Campaign ID in Property File
-                JavaUtility.writeToPropertyFile("CampaignId",campaignId);
+                System.out.println(flowName+"Id: "+flowNameId);
+                //Store flow ID in Property File
+                JavaUtility.writeToPropertyFile(flowName+"Id",flowNameId);
 
             }
             else{
-                System.out.println("Create Campaign is not Successful!!");
+                System.out.println("Create "+flowName+" is not Successful!!");
             }
         }
         else {
-            System.out.println("Create Campaign pop up is not displayed");
+            System.out.println("Create "+flowName+" pop up is not displayed");
         }
-       // Thread.sleep(2000);
-//        //Logout of App
-//        NinzaAutomation.logoutNinZa(driver);
-//        driver.quit();
+
     }
 
     public static void ninzaTC01CreateCampaign() throws Throwable {
@@ -144,62 +123,20 @@ public class NinzaAutomation extends WebDriverUtilities{
         Thread.sleep(2000);
         //Click on Campaign link
         createCampPage.getCampaignLink().click();
-        //driver.findElement(By.xpath("//div[@id='navbarNav']/ul/li[1]/a")).click();
         //Click on create Campaign button
         hp.getCreateCampaignButton().click();
-        //driver.findElement(By.xpath("//button[@class='btn btn-info']")).click();
         //Fill Campaign Name
         String campName = JavaUtility.generateCampaignName();
         createCampPage.getCampaignName().sendKeys(campName);
-        //System.out.println("cName is: "+campName);
-        //Thread.sleep(1000);
-//        JavascriptExecutor jse = (JavascriptExecutor)driver;
-//        WebElement campWebEle = driver.findElement(By.xpath("//input[@name='campaignName']"));
-//        jse.executeScript("arguments[0].value='"+campName+"';", campWebEle);
-        //driver.findElement(By.xpath("//input[@name='campaignName']")).sendKeys(campName);
         //Fill Target Size
-        //driver.findElement(By.xpath("//input[@name='targetSize']")).clear();
         createCampPage.getTargetSize().sendKeys(ExcelUtility.toReadDataFromExcel("Campaigns",1,1));
-        //driver.findElement(By.xpath("//input[@name='targetSize']")).sendKeys(ExcelUtility.toReadDataFromExcel("Campaigns",1,1));
         //Enter expected Closed Date
         createCampPage.getExpectedCloseDate().sendKeys(JavaUtility.getCurrentDate());
-        //driver.findElement(By.xpath("//input[@name='expectedCloseDate']")).sendKeys(JavaUtility.getCurrentDate());
         //Click Create Campaign button
         createCampPage.getCreateCampaignSubmitButton().click();
-        //driver.findElement(By.xpath("//button[@type='submit']")).click();
-        //Create Campaign pop up
+        //Verify campaign pop up and campaign creation
         Thread.sleep(2000);
-//        WebElement popUp =createCampPage.getPopUp();
-//        //WebElement popUp = driver.findElement(By.xpath("//div[@class='Toastify']/div/div/div[1]"));
-//        //Get text of popup
-//        String popUpText = popUp.getText();
-//        if(popUp.isDisplayed())
-//        {
-//            if(popUpText.contains("Successfully Added")) {
-//
-//                String campaignName=JavaUtility.extractTextFromPopUp(popUp,"Campaigns");
-//                //Store Campaign Name in Property File
-//                JavaUtility.writeToPropertyFile("CampaignName",campaignName);
-//                System.out.println("Campaign name is: "+campaignName);
-//                System.out.println("Create Campaign is Successful!!");
-//                //Capture Campaign ID
-//                Thread.sleep(10000);
-//                String campaignId = NinzaAutomation.captureCampaignId(driver);
-//
-//                System.out.println("CampaignId: "+campaignId);
-//                //Store Campaign ID in Property File
-//                JavaUtility.writeToPropertyFile("CampaignId",campaignId);
-//
-//            }
-//            else{
-//                System.out.println("Create Campaign is not Successful!!");
-//            }
-//        }
-//        else {
-//            System.out.println("Create Campaign pop up is not displayed");
-//        }
-        NinzaAutomation.verifyCampaign(driver);
-        //Thread.sleep(2000);
+        NinzaAutomation.verifyPopUpAndCreation(driver,"campaign");
         //Close popUp
         createCampPage.getClosePopUp().click();
         //Logout of App
@@ -215,17 +152,14 @@ public class NinzaAutomation extends WebDriverUtilities{
         Thread.sleep(2000);
         //Select Search by Campaign ID
         selCampPage.getSearchByCampaignId().click();
-        //driver.findElement(By.xpath("//select[@class='form-control']/option[1]")).click();
         //Input Campaign ID
         Thread.sleep(1000);
         //Get Campaign ID from property File
         String campaignId = JavaUtility.getFromPropertyFile("campaignId");
-        //Serach for Camapign id inside search box
+        //Search for Camapign id inside search box
         selCampPage.getCampaignSearchBox().sendKeys(campaignId);
-        //driver.findElement(By.xpath("//input[@class='form-control']")).sendKeys(CampaignId);
         //Extract Campaign ID from Table display
         WebElement camID =  selCampPage.getCampaignIdTableDisplay();
-        //WebElement camID = driver.findElement(By.xpath("//table[@class='table table-striped table-hover']//tbody/tr/td[1]"));
         if(camID.getText().equalsIgnoreCase(campaignId))
         {
             System.out.println("Search Campaign by ID is Successful!!");
@@ -250,10 +184,8 @@ public class NinzaAutomation extends WebDriverUtilities{
         Thread.sleep(1000);
         //Search for Camapign name inside search box
         selCampPage.getCampaignSearchBox().sendKeys(campaignName);
-        //driver.findElement(By.xpath("//input[@class='form-control']")).sendKeys(CampaignName);
         //Extract Campaign Name from Table display
         WebElement camID =selCampPage.getCampaignNameTableDisplay();
-        //WebElement camID = driver.findElement(By.xpath("//table[@class='table table-striped table-hover']//tbody/tr/td[2]"));
         if(camID.getText().equalsIgnoreCase(campaignName))
         {
             System.out.println("Search Campaign by Name is Successful!!");
@@ -270,7 +202,7 @@ public class NinzaAutomation extends WebDriverUtilities{
         NinzaAutomation.loginNinza(driver);
         hp.getCreateCampaignButton().click();
         createCampPage.createCampaignWithMandatoryDetails(JavaUtility.generateCampaignName(),ExcelUtility.toReadDataFromExcel("Campaigns",1,1));
-        NinzaAutomation.verifyCampaign(driver);
+        NinzaAutomation.verifyPopUpAndCreation(driver,"campaign");
         //Close popUp
         createCampPage.getClosePopUp().click();
         //Logout of App
@@ -282,7 +214,7 @@ public class NinzaAutomation extends WebDriverUtilities{
         NinzaAutomation.loginNinza(driver);
         hp.getCreateCampaignButton().click();
         createCampPage.createCampaignWithClosingDate(JavaUtility.generateCampaignName(),ExcelUtility.toReadDataFromExcel("Campaigns",1,1),JavaUtility.getCurrentDate());
-        NinzaAutomation.verifyCampaign(driver);
+        NinzaAutomation.verifyPopUpAndCreation(driver,"campaign");
         //Close popUp
         createCampPage.getClosePopUp().click();
         //Logout of App
@@ -298,7 +230,7 @@ public class NinzaAutomation extends WebDriverUtilities{
         String trgtAudience = JavaUtility.getFromPropertyFile("targetAudience");
         String desc = JavaUtility.getFromPropertyFile("description");
         createCampPage.createCampaignWithTargetAudience(campaignName,trgtSize,trgtAudience,desc);
-        NinzaAutomation.verifyCampaign(driver);
+        NinzaAutomation.verifyPopUpAndCreation(driver,"campaign");
         //Close popUp
         createCampPage.getClosePopUp().click();
         //Logout of App
@@ -306,7 +238,7 @@ public class NinzaAutomation extends WebDriverUtilities{
         driver.quit();
     }
 
-    public static void ninzaTC04SearchByContactID() throws InterruptedException, IOException, ParseException {
+    public static void ninzaTC07SearchByContactID() throws InterruptedException, IOException, ParseException {
         //launch Browser
         WebDriver driver= NinzaAutomation.launchBrowser();
         //Login to App
@@ -314,21 +246,17 @@ public class NinzaAutomation extends WebDriverUtilities{
         Thread.sleep(2000);
         //Click on Contact header button
         hp.getContactsLink().click();
-        //driver.findElement(By.xpath("//div[@id='navbarNav']/ul/li[2]/a")).click();
         Thread.sleep(1000);
         //Select Search by Contact ID
         contPage.getSearchContactByID().click();
-        //driver.findElement(By.xpath("//select[@class='form-control']/option[1]")).click();
         //Input Contact ID
         Thread.sleep(1000);
         //Get Contact ID from property File
         String contactId = JavaUtility.getFromPropertyFile("contactId");
         //Serach for Contact id inside search box
         contPage.getContactSearchBox().sendKeys(contactId);
-        //driver.findElement(By.xpath("//input[@placeholder='Search by Contact Id']")).sendKeys(contactId);
         //Extract Contact ID from Table display
         WebElement camID = contPage.getContactIdTableDisplay();
-        //WebElement camID = driver.findElement(By.xpath("//table[@class='table table-striped table-hover']//tbody/tr/td[1]"));
         if(camID.getText().equalsIgnoreCase(contactId))
         {
             System.out.println("Search Contact by ID is Successful!!");
@@ -339,7 +267,8 @@ public class NinzaAutomation extends WebDriverUtilities{
         driver.quit();
     }
 
-    public static void ninzaTC05SearchByContactName() throws InterruptedException, IOException, ParseException {
+    public static void ninzaTC08SearchByContactName() throws Throwable {
+        //public static void ninzaTC08SearchByContactName() throws InterruptedException, IOException, ParseException {
         //launch Browser
         WebDriver driver= NinzaAutomation.launchBrowser();
         //Login to App
@@ -347,18 +276,15 @@ public class NinzaAutomation extends WebDriverUtilities{
         Thread.sleep(2000);
         //Click on Contact header button
         hp.getContactsLink().click();
-        //driver.findElement(By.xpath("//div[@id='navbarNav']/ul/li[2]/a")).click();
         Thread.sleep(1000);
         //Select Search by Contact Name
         contPage.getSearchContactByName().click();
-        //driver.findElement(By.xpath("//select[@class='form-control']/option[1]")).click();
         //Input Contact Name
         Thread.sleep(1000);
         //Get Contact ID from property File
         String contactName = JavaUtility.getFromPropertyFile("contactName");
         //Serach for Contact id inside search box
         contPage.getContactSearchBox().sendKeys(contactName);
-        //driver.findElement(By.xpath("//input[@placeholder='Search by Contact Id']")).sendKeys(contactId);
         //Extract Contact ID from Table display
         WebElement camID = contPage.getContactNameTableDisplay();
         if(camID.getText().equalsIgnoreCase(contactName))
@@ -503,7 +429,7 @@ public class NinzaAutomation extends WebDriverUtilities{
 //    }
 
 
-    public static void ninzaTC10CreateContactUsingCampaignID() throws InterruptedException, IOException, ParseException {
+    public static void ninzaTC09CreateContactUsingCampaignID() throws InterruptedException, IOException, ParseException {
         //launch Browser
         WebDriver driver= NinzaAutomation.launchBrowser();
         //Login to App
@@ -511,8 +437,6 @@ public class NinzaAutomation extends WebDriverUtilities{
         Thread.sleep(2000);
         //Click on Contact link
         hp.getContactsLink().click();
-        //createContPage.getContactLink().click();
-        //driver.findElement(By.xpath("//div[@id='navbarNav']/ul/li[2]/a")).click();
         Thread.sleep(1000);
         //Click on create Contact button
         contPage.getcreateContactButton().click();
@@ -522,92 +446,49 @@ public class NinzaAutomation extends WebDriverUtilities{
         String parentWh = driver.getWindowHandle();
         //Fill Organization
         createContPage.getOrganizationName().sendKeys(JavaUtility.generateOrganizationName());
-        //driver.findElement(By.xpath("//input[@name='organizationName']")).sendKeys(JavaUtility.generateOrganizationName());
         Thread.sleep(1000);
         //Fill Title
         createContPage.getTitle().sendKeys(JavaUtility.generateRandomStrings());
-        //driver.findElement(By.xpath("//input[@name='title']")).sendKeys(JavaUtility.generateRandomStrings());
         Thread.sleep(1000);
         //Fill Contact Name
         createContPage.getContactName().sendKeys(JavaUtility.generateRandomStrings());
-        //driver.findElement(By.xpath("//input[@name='contactName']")).sendKeys(JavaUtility.generateRandomStrings());
         Thread.sleep(1000);
         //Fill Mobile
         createContPage.getMobile().sendKeys(JavaUtility.generateRandomMobileNo());
-        //driver.findElement(By.xpath("//input[@name='mobile']")).sendKeys(JavaUtility.generateRandomMobileNo());
         Thread.sleep(1000);
         //Campaign button
         createContPage.getSelectcampaignSubmitButton().click();
-        //driver.findElement(By.xpath("//div[@class='form-container']/div[2]/div[4]//button")).click();
         Thread.sleep(1000);
         //Passing window handle to dialogue box
         WebDriverUtilities.switchToWindowByTitle(driver,"Select Campaign");
         Thread.sleep(1000);
         //select campaign id from drop down
         createContPage.getSelectCampaignIdDropDown().click();
-        //driver.findElement(By.xpath("//select[@id='search-criteria']/option[1]"));
         //Get Campaign Id from propert file
-        String CampaignId = JavaUtility.getFromPropertyFile("CampaignId");
+        String campaignId = JavaUtility.getFromPropertyFile("campaignId");
         //Serach for Camapign id inside search box
-        createContPage.getSearchCampaignIdSearchBox().sendKeys(CampaignId);
-        //driver.findElement(By.xpath("//input[@id='search-input']")).sendKeys(CampaignId);
+        createContPage.getSearchCampaignIdSearchBox().sendKeys(campaignId);
         Thread.sleep(1000);
         //Click on Select Campaign button
         createContPage.getSelectCampaignButtontable().click();
-        //driver.findElement(By.xpath("//button[@class='select-btn']")).click();
         Thread.sleep(1000);
         //Switch back to parent window handle
         System.out.println("Switching to parent window");
         WebDriverUtilities.switchToParentWindow(driver,parentWh);
-        //driver.switchTo().window(parentWh);
         Thread.sleep(2000);
         System.out.println("Switch to parent window is successful!!");
         //Click on Create Contact button
         createContPage.getCreateContactSubmitButton().click();
-        //driver.findElement(By.xpath("//button[@type='submit']")).click();
         Thread.sleep(1000);
-        //Capture successful create contact pop up
-        WebElement popUp = createContPage.getPopUp();
-        //WebElement popUp = driver.findElement(By.xpath("//div[@class='Toastify']/div/div/div"));
-//        if(popUp.isDisplayed())
-//        {
-//            System.out.println("Create Contact is Successful!!");
-//            JavaUtility.writeToPropertyFile("");
-//        }
-        //Get text of popup
-        String popUpText = popUp.getText();
-        if(popUp.isDisplayed())
-        {
-            if(popUpText.contains("Successfully Added")) {
-
-                String contactName=JavaUtility.extractTextFromPopUp(popUp,"Contacts");
-                //Store Contact Name in Property File
-                JavaUtility.writeToPropertyFile("contactName",contactName);
-                System.out.println("Contact name is: "+contactName);
-                System.out.println("Create Contact is Successful!!");
-                //Capture Contact ID
-                Thread.sleep(10000);
-                String contactId = NinzaAutomation.captureContactId(driver);
-                System.out.println("contactId: "+contactId);
-                //Store Contact ID in Property File
-                JavaUtility.writeToPropertyFile("contactId",contactId);
-
-            }
-            else{
-                System.out.println("Create Contact is not Successful!!");
-            }
-        }
-        else {
-            System.out.println("Create Contact pop up is not displayed");
-        }
-        Thread.sleep(1000);
+        //Verify contact pop up and contact creation
+        NinzaAutomation.verifyPopUpAndCreation(driver,"contact");
         //Close popUp
         createCampPage.getClosePopUp().click();
         //Logout of App
         NinzaAutomation.logoutNinZa(driver);
         driver.quit();
     }
-    public static void ninzaTC11CreateProduct() throws Throwable {
+    public static void ninzaTC10CreateProduct() throws Throwable {
         //launch Browser
         WebDriver driver= NinzaAutomation.launchBrowser();
         //Login to App
@@ -615,70 +496,33 @@ public class NinzaAutomation extends WebDriverUtilities{
         Thread.sleep(2000);
         //Click on Products button
         hp.getProductsLink().click();
-        //driver.findElement(By.xpath("//div[@id='navbarNav']/ul/li[5]/a")).click();
         //Click on Add Product button
         pp.getCreateProductButton().click();
-        //driver.findElement(By.xpath("//button[@class='btn btn-info']")).click();
         //Enter Product Name
         createProdPage.getProductName().sendKeys(JavaUtility.generateProductName());
-        //driver.findElement(By.xpath("//input[@name='productName']")).sendKeys(JavaUtility.generateProductName());
         Thread.sleep(1000);
         //Select product category
         WebElement selectProduct = createProdPage.getSelectProductCategory();
-        //WebElement selectProduct = driver.findElement(By.xpath("//select[@name='productCategory']"));
         WebDriverUtilities.select(selectProduct,1);
-        //driver.findElement(By.xpath("//select[@name='productCategory']")).sendKeys(ExcelUtility.toReadDataFromExcel("Products",1,2));
         Thread.sleep(1000);
         //Fill Qunatity
         createProdPage.getFillQty().sendKeys(ExcelUtility.toReadDataFromExcel("Products",1,2));
-        //driver.findElement(By.xpath("//input[@name='quantity']")).sendKeys(ExcelUtility.toReadDataFromExcel("Products",1,2));
         Thread.sleep(1000);
         //Fill Price per unit
         WebElement ppu = createProdPage.getFillPricePerUnit();
-        //WebElement ppu = driver.findElement(By.xpath("//input[@name='price']"));
         ppu.clear();
         ppu.sendKeys(ExcelUtility.toReadDataFromExcel("Products",1,3));
-        //driver.findElement(By.xpath("//input[@name='price']")).sendKeys(ExcelUtility.toReadDataFromExcel("Products",1,4));
         Thread.sleep(1000);
         //Select Vendor
         WebElement selectVendor = createProdPage.getSelectVendor();
-        //WebElement selectVendor = driver.findElement(By.xpath("//select[@name='vendorId']"));
         WebDriverUtilities.select(selectVendor,3);
-        //driver.findElement(By.xpath("//select[@name='vendorId']")).sendKeys(ExcelUtility.toReadDataFromExcel("Products",1,5));
         //Click on Add product button
         createProdPage.getCreateProductSubmitButton().click();
-        //driver.findElement(By.xpath("//button[@type='submit']")).click();
-        //Capture successful create product pop up
-        Thread.sleep(1000);
-        WebElement popUp = createProdPage.getPopUp();
-        //WebElement popUp = driver.findElement(By.xpath("//div[@class='Toastify']/div/div/div"));
-        //Get text of popup
-        String popUpText = popUp.getText();
-        if(popUp.isDisplayed())
-        {
-            if(popUpText.contains("Successfully Added")) {
-
-                String productName=JavaUtility.extractTextFromPopUp(popUp,"Products");
-                //Store Product Name in Property File
-                JavaUtility.writeToPropertyFile("productName",productName);
-                System.out.println("Product name is: "+productName);
-                System.out.println("Create Product is Successful!!");
-                //Capture Product ID
-//                Thread.sleep(10000);
-//                String contactId = NinzaAutomation.captureContactId(driver);
-//                System.out.println("contactId: "+contactId);
-//                //Store Contact ID in Property File
-//                JavaUtility.writeToPropertyFile("contactId",contactId);
-
-            }
-            else{
-                System.out.println("Create Product is not Successful!!");
-            }
-        }
-        else {
-            System.out.println("Create Product pop up is not displayed");
-        }
-        Thread.sleep(5000);
+       //Verify product pop up and product creation
+        NinzaAutomation.verifyPopUpAndCreation(driver,"product");
+        //Thread.sleep(5000);
+        //Close popUp
+        createCampPage.getClosePopUp().click();
         //Logout of App
         NinzaAutomation.logoutNinZa(driver);
         driver.quit();
@@ -689,15 +533,16 @@ public class NinzaAutomation extends WebDriverUtilities{
         //NinzaAutomation.ninzaTC01CreateCampaign();
          //NinzaAutomation.ninzaTC02SearchByCampaignID();
         //NinzaAutomation.ninzaTC03SearchByCampaignName();
-        //NinzaAutomation.ninzaTC04createCampaignWithMandatoryDetails();
-        NinzaAutomation.ninzaTC06createCampaignWithTargetAudience();
-        //NinzaAutomation.ninzaTC04SearchByContactID();
-        //NinzaAutomation.ninzaTC05SearchByContactName();
-        //NinzaAutomation.ninzaTC06CreateLeadUsingCampaignID(driver);
+        NinzaAutomation.ninzaTC04createCampaignWithMandatoryDetails();
+        //NinzaAutomation.ninzaTC05createCampaignWithClosingDate();
+        //NinzaAutomation.ninzaTC06createCampaignWithTargetAudience();
+        //NinzaAutomation.ninzaTC07SearchByContactID();
+        //NinzaAutomation.ninzaTC08SearchByContactName();
+        //NinzaAutomation.ninzaTC09CreateContactUsingCampaignID();
+        NinzaAutomation.ninzaTC10CreateProduct();
+        //NinzaAutomation.ninzaTC09CreateLeadUsingCampaignID(driver);
         //NinzaAutomation.ninzaTC07SearchByLeadID(driver);
         //NinzaAutomation.ninzaTC08SearchByLeadName(driver);
-        //NinzaAutomation.ninzaTC10CreateContactUsingCampaignID();
-        //NinzaAutomation.ninzaTC11CreateProduct();
 
     }
 }

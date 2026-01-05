@@ -1,0 +1,52 @@
+{
+    "createdBy": "Anand",
+    "createdOn": "02/01/2026",
+    "address": [
+        {
+            "city": "Gaya",
+            "country": "India",
+            "houseNo": 409,
+            "state": "Bihar",
+            "streetName": "Domuhan",
+            "landmarkList": [
+                {
+                    "latitude": 3.105,
+                    "longitude": 8.506,
+                    "nearBy": "Idea Tower",
+                    "roadNo": 2
+                },
+                {
+                    "latitude": 3.609,
+                    "longitude": 8.703,
+                    "nearBy": "Siddhartha",
+                    "roadNo": 3
+                }
+            ]
+        },
+        {
+            "city": "BodhGaya",
+            "country": "India",
+            "houseNo": 410,
+            "state": "Bihar",
+            "streetName": "Domuhan",
+            "landmarkList": [
+                {
+                    "latitude": 2.450,
+                    "longitude": 4.608,
+                    "nearBy": "Airtel Tower",
+                    "roadNo": 8
+                },
+                {
+                    "latitude": 2.550,
+                    "longitude": 4.701,
+                    "nearBy": "Node1",
+                    "roadNo": 4
+                }
+            ]
+        }
+    ],
+    "projectId": "Scorp-456",
+    "projectName": "WholesaleMarker",
+    "status": "InProgress",
+    "teamSize": 10
+}

@@ -22,7 +22,9 @@ public class ArrayPassCount {
         return count;
     }
         public static void main (String[]args){
-            int count=ArrayPassCount.sortArray(new int[]{2, 1, 5, 4});
+            //int count=ArrayPassCount.sortArray(new int[]{2, 1, 5, 4});
+
+            int count=ArrayPassCount.sortArray(new int[]{5,1,3,7,4,5,9});
             System.out.println("No of pass is: "+count);
 //            List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
 //            System.out.println("List is: "+list);

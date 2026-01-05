@@ -12,16 +12,19 @@ import java.time.Duration;
 
 public class AmazonAutomation {
     public static void main(String[] args) throws InterruptedException {
-        WebDriver driver= new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.get("https://www.amazon.in/");
-        Actions act = new Actions(driver);
-        Thread.sleep(2000);
-        act.moveToElement(driver.findElement(By.xpath("//div[@id='nav-link-accountList']"))).perform();
-        Thread.sleep(2000);
-        WebElement account = driver.findElement(By.xpath("//div[contains(text(),'Your Account')]/..//ul//li[1]"));
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.visibilityOf(account)).click();
+//        WebDriver driver= new ChromeDriver();
+//        driver.manage().window().maximize();
+//        driver.get("https://www.amazon.in/");
+//        Actions act = new Actions(driver);
+//        Thread.sleep(2000);
+//        act.moveToElement(driver.findElement(By.xpath("//div[@id='nav-link-accountList']"))).perform();
+//        Thread.sleep(2000);
+//        WebElement account = driver.findElement(By.xpath("//div[contains(text(),'Your Account')]/..//ul//li[1]"));
+//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//        wait.until(ExpectedConditions.visibilityOf(account)).click();
+        String s = "Campaign";
+        String s1="Id";
+        System.out.println(s+s1);
 
     }
 }

@@ -1,8 +1,11 @@
 package TestNGClasses;
 
+import org.testng.ITestListener;
+import org.testng.Reporter;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
 
 public class TestNGTCDemo extends BaseClass{
 
@@ -19,6 +22,8 @@ public class TestNGTCDemo extends BaseClass{
     @Test
     public void testSubClass()
     {
-        System.out.println("This is sub class of Base class");
+        Reporter.log("This is sub class of Base class",true);
+
+        //System.out.println("This is sub class of Base class");
     }
 }

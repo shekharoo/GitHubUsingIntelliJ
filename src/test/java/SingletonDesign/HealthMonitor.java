@@ -1,11 +1,11 @@
 package SingletonDesign;
 
 public class HealthMonitor {
-    public HealthMonitor() {
+    private HealthMonitor() {
     }
 
-    private int heartRate;
-    public int getHeartRate() {
+    private static int heartRate;
+   private static int getHeartRate() {
         return heartRate;
     }
 
@@ -25,8 +25,11 @@ public class HealthMonitor {
 
     public static void main(String[] args) {
         HealthMonitor hm=HealthMonitor.getInstance();
-        hm.setHeartRate(7);
-        int speed=hm.getHeartRate();
-        System.out.println("Speed is: "+speed);
+        System.out.println(hm.hashCode());
+        HealthMonitor hm1=HealthMonitor.getInstance();
+        System.out.println(hm1.hashCode());
+//        hm.setHeartRate(7);
+//        int speed=hm.getHeartRate();
+//        System.out.println("Speed is: "+speed);
     }
 }
