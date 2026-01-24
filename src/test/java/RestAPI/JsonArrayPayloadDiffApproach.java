@@ -106,5 +106,6 @@ public class JsonArrayPayloadDiffApproach {
                 //.when().get();
                 .when().post("http://localhost:8084/addProject").as(Map.class);
         System.out.println("Map value is: "+map);
+
     }
 }

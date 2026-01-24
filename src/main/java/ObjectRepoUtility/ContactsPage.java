@@ -13,8 +13,12 @@ public class ContactsPage {
         PageFactory.initElements(driver,this);
     }
 
-    @FindBy(xpath = "//button[@class='btn btn-info']")
-    WebElement createContactButton;
+    public WebElement getCreateContactButton1() {
+        return createContactButton1;
+    }
+
+    private @FindBy(xpath = "//button[@class='btn btn-info']")
+    WebElement createContactButton1;
 
 
     @FindBy(xpath = "//select[@class='form-control']/option[1]")
@@ -29,9 +33,9 @@ public class ContactsPage {
     @FindBy(xpath="//table[@class='table table-striped table-hover']//tbody/tr/td[2]")
     WebElement contactNameTableDisplay;
 
-    public WebElement getcreateContactButton() {
-        return createContactButton;
-    }
+//    public WebElement getcreateContactButton() {
+//        return createContactButton;
+//    }
     public WebElement getSearchContactByID() {
         return searchContactByID;
     }

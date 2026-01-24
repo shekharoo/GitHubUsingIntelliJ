@@ -439,7 +439,7 @@ public class NinzaAutomation extends WebDriverUtilities{
         hp.getContactsLink().click();
         Thread.sleep(1000);
         //Click on create Contact button
-        contPage.getcreateContactButton().click();
+        //contPage.getcreateContactButton().click();
         //driver.findElement(By.xpath("//button[@class='btn btn-info']")).click();
         Thread.sleep(1000);
         //Store parent window handle

@@ -116,5 +116,7 @@ public class SampleGetRequest {
 //        ObjectMapper mapper=new ObjectMapper();
 //        String json=mapper.writeValueAsString(sg);
 //        System.out.println(json);
+//        Headers header = new Headers();
+//        given().headers();
     }
 }
