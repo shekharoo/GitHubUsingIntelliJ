@@ -5,41 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23fd0870-ea36-4b25-ba0e-f6f96885d07a" name="Changes" comment="My 14th commit through Intellij">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumFiles/ExecuteInCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Inheritance/ClassA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Inheritance/ClassB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Interface/ClassA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Interface/InterfaceA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InterviewPractice/ComparableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InterviewPractice/ComparableMainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InterviewPractice/ComparatorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InterviewPractice/ComparatorExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InterviewPractice/ComparatorMainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InterviewPractice/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InterviewPractice/TernaryOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/AllPermutatiionOfString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/CountWordRepetition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/DesiredOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/EvenNo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/NoOfWordsInSentence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/PrimeNo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/RepeatEachCharacterTwice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/ReverseNo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/ReverseSentence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/StringRemoveSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/SumOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/UploadingUsingSelenium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Strings/StringsGeneral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Collections/ArrayListToHashset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Collections/College_Comparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Collections/College_Comperable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Collections/Driver_Comparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Collections/Driver_Comparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Collections/SetClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Collections/SortByAge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Collections/SortByName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Collections/Student_Comparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Collections/Student_Comparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/Array_FindCommonElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/RemoveDuplicate_Array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/ContactsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ObjectRepoUtility/ContactsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumFiles/NinzaAutomation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumFiles/NinzaAutomation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumFiles/NinzaAutomation_TestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumFiles/NinzaAutomation_TestNG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Database_JDBC/SampleJDBCConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Database_JDBC/SampleJDBCConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Map/ListMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Map/ListMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestAPI/JsonArrayPayloadDiffApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAPI/JsonArrayPayloadDiffApproach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestAPI/SampleGetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAPI/SampleGetRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,39 +71,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "GitHubInIntellij",
-    "last_opened_file_path": "D:/QSpider/DockerFiles/GitPracticeA",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "http.proxy",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;GitHubInIntellij&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/QSpider/DockerFiles/GitPracticeA&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Shekhar\IdeaProjects\SeleniumDemo\src\main\resources" />
       <recent name="C:\Users\Shekhar\IdeaProjects\SeleniumDemo\src\test\LeetCodeArray" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Collections" />
       <recent name="Selenium" />
       <recent name="JavaInterviewPgms" />
       <recent name="InterviewPractice" />
       <recent name="DockerClass" />
-      <recent name="RestAPI" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountWordRepetition">
-    <configuration name="CountWordRepetition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaInterviewPgms.CountWordRepetition" />
+  <component name="RunManager" selected="Application.RemoveDuplicate_Array">
+    <configuration name="Array_FindCommonElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaInterviewPgms.Array_FindCommonElements" />
       <module name="MavenSampleProject" />
       <extension name="coverage">
         <pattern>
@@ -137,8 +115,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DesiredOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaInterviewPgms.DesiredOutput" />
+    <configuration name="Driver_Comparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.Driver_Comparable" />
+      <module name="MavenSampleProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Driver_Comparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.Driver_Comparator" />
+      <module name="MavenSampleProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicate_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaInterviewPgms.RemoveDuplicate_Array" />
       <module name="MavenSampleProject" />
       <extension name="coverage">
         <pattern>
@@ -150,38 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatEachCharacterTwice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaInterviewPgms.RepeatEachCharacterTwice" />
+    <configuration name="SetClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.SetClass" />
       <module name="MavenSampleProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaInterviewPgms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SamplePutRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RestAPI.SamplePutRequest" />
-      <module name="MavenSampleProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestAPI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringRemoveSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaInterviewPgms.StringRemoveSpace" />
-      <module name="MavenSampleProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaInterviewPgms.*" />
+          <option name="PATTERN" value="Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,21 +255,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CountWordRepetition" />
-      <item itemvalue="Application.SamplePutRequest" />
-      <item itemvalue="Application.DesiredOutput" />
-      <item itemvalue="Application.RepeatEachCharacterTwice" />
-      <item itemvalue="Application.StringRemoveSpace" />
+      <item itemvalue="Application.Array_FindCommonElements" />
+      <item itemvalue="Application.RemoveDuplicate_Array" />
+      <item itemvalue="Application.SetClass" />
+      <item itemvalue="Application.Driver_Comparable" />
+      <item itemvalue="Application.Driver_Comparator" />
       <item itemvalue="Maven.Maven TestNG Run" />
       <item itemvalue="TestNG.TestNGRun" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountWordRepetition" />
-        <item itemvalue="Application.SamplePutRequest" />
-        <item itemvalue="Application.DesiredOutput" />
-        <item itemvalue="Application.RepeatEachCharacterTwice" />
-        <item itemvalue="Application.StringRemoveSpace" />
+        <item itemvalue="Application.RemoveDuplicate_Array" />
+        <item itemvalue="Application.Array_FindCommonElements" />
+        <item itemvalue="Application.SetClass" />
+        <item itemvalue="Application.Driver_Comparator" />
+        <item itemvalue="Application.Driver_Comparable" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +350,8 @@
       <workItem from="1768882355298" duration="1091000" />
       <workItem from="1769076326064" duration="4370000" />
       <workItem from="1769169072457" duration="5828000" />
-      <workItem from="1769226041463" duration="361000" />
+      <workItem from="1769226041463" duration="17219000" />
+      <workItem from="1769321709501" duration="9524000" />
     </task>
     <task id="LOCAL-00001" summary="My 1st commit through Intellij">
       <option name="closed" value="true" />
@@ -494,7 +473,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768825910059</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="My 14th commit through Intellij">
+      <option name="closed" value="true" />
+      <created>1769226464046</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1769226464046</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
