@@ -3,8 +3,26 @@ package JavaInterviewPgms;
 import java.util.Scanner;
 
 public class ReverseSentence {
+    public static String reverseUsingTraditionalWay(String s)
+    {
+        String[] sSplit = s.split(" ");
+        System.out.println("Split size: "+sSplit.length);
+        //System.out.println(sSplit[4]);
+        String rev="";
+        for(int i=0;i<sSplit.length;i++)
+        {
+            for(int j=sSplit[i].length()-1;j>=0;j--)
+            {
+                rev=rev+sSplit[i].charAt(j);
+            }
+            rev=rev+" ";
 
-    public static String reverseSentence(String st)
+        }
+        //System.out.println("Rev sentence is: "+rev);
+        return s;
+    }
+
+    public static String reverseSentenceStringBuilder(String st)
     {
        // System.out.println("Please enter a sentence");
 //        Scanner s = new Scanner(System.in);
@@ -35,6 +53,6 @@ public class ReverseSentence {
     }
 
     public static void main(String[] args) {
-        ReverseSentence.reverseSentence("Java is good programming languages");
+        ReverseSentence.reverseSentenceStringBuilder("Java is good programming languages");
     }
 }

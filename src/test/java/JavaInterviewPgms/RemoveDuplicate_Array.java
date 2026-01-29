@@ -1,5 +1,4 @@
 package JavaInterviewPgms;
-
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -45,7 +44,16 @@ public class RemoveDuplicate_Array {
 //        {
 //            System.out.print(ar[i]+",");
 //        }
-        RemoveDuplicate_Array.removeDuplicateUsingHashSet(ar);
+        //RemoveDuplicate_Array.removeDuplicateUsingHashSet(ar);
+        String s ="5";
+        int a=6;
+        int b =Integer.parseInt(s); //converted to int
+        System.out.println("b:"+b);
+        System.out.println(a+b);
+        System.out.println(a+s);
+        String c=String.valueOf(b); //Converted to String
+        System.out.println("Value of c: "+c);
+        System.out.println(a+c);
 
     }
 }

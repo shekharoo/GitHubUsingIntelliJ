@@ -12,6 +12,7 @@ public class Factorial {
         int i=0;
         int fact=1;
         Scanner s = new Scanner(System.in);
+
         int n=s.nextInt();
         for(i=2;i<=n;i++)
         //while(i<=n)
