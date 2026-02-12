@@ -12,7 +12,7 @@ public class NoOfWordsInSentence {
         int count=1;
         for(int i=0;i< st.length()-1;i++)
         {
-            if ((st.charAt(i) == ' ') && (st.charAt(i + 1) != ' '))
+           if ((st.charAt(i) == ' ') && (st.charAt(i + 1) != ' '))
                 count++;
         }
         System.out.println("Count is: "+count);

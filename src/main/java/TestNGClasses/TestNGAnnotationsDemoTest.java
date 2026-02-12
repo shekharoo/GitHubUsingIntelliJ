@@ -1,17 +1,12 @@
 package TestNGClasses;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
-
 //@Test(enabled = false)
-public class TestNGAnnotationsDemo {
+public class TestNGAnnotationsDemoTest {
     WebDriver driver=null;
 
     @Test(groups = "Regression")

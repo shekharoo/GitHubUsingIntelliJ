@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class SwipeDigitsToRightInArray {
     public static void main(String[] args) {
-        int[] ar={10,0,0,10,20};
+        int[] ar={10,0,0,10,20};//op-->{10,10,20,0,0}
         int right=0;
         int left=0;
         int temp=0;

@@ -1,5 +1,7 @@
 package JavaInterviewPgms;
 
+import java.util.Arrays;
+
 public class RepeatEachCharacterTwice {
 
     public static void repeatTwice(String str)
@@ -18,4 +20,27 @@ public class RepeatEachCharacterTwice {
     public static void main(String[] args) {
         RepeatEachCharacterTwice.repeatTwice("Kite");
     }
+
+    public static class ReverseString_Array {
+
+            public static void reverseString(char[] ar) {
+                //public static void reverseString(String[] ar) {
+                char[] ch=new char[ar.length];
+                for(int i=ar.length-1;i>=0;i--)
+                {
+                    ch[ar.length-i-1]=ar[i];
+                }
+                System.out.println("Array is: "+ Arrays.toString(ch));
+
+            }
+
+        public static void main(String[] args) {
+            //String ch = "h","e","l","l","o";
+            ReverseString_Array.reverseString(new char[]{'h', 'e', 'l', 'l', 'o'});
+            //ReverseString_Array.reverseString(new String[]{"Shekhar"});
+    //        char[] ar1=new char[]{'h', 'e', 'l', 'l', 'o'};
+    //        String[] str=new String[]{"Shekhar"};
+    //        System.out.println(str.toString());
+        }
+        }
 }

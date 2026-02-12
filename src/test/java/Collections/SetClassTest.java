@@ -1,11 +1,9 @@
 package Collections;
 
-import java.util.Arrays;
 import java.util.HashSet;
-import java.util.ListIterator;
 import java.util.Set;
 
-public class SetClass {
+public class SetClassTest {
     public static void main(String[] args) {
         Set<String> s = new HashSet<>();
         s.add("Shekhar");

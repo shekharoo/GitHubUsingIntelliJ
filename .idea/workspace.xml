@@ -4,20 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23fd0870-ea36-4b25-ba0e-f6f96885d07a" name="Changes" comment="My 15th commit through Intellij">
-      <change afterPath="$PROJECT_DIR$/src/test/java/InterviewPractice/Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/CountEachWordAndFrequency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/StringBuilderPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/ReverseArrayType_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/ReverseArrayType_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/ReverseSentence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/ReverseSentenceType_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/SwipeDigitsToRightInArray.java" afterDir="false" />
+    <list default="true" id="23fd0870-ea36-4b25-ba0e-f6f96885d07a" name="Changes" comment="My 16th commit through Intellij">
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/PrintDuplicatesInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/RemoveDuplicatesInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/RemoveDuplicateInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/RemoveDuplicateInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/VowelLeftConsonantRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SampleRunTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StreamPgms/FinfNamesWithA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StreamPgms/RemoveDuplicatesInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StreamPgms/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Strings/pRACTICEjAVAPgms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/AllPermutatiionOfString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/AllPermutatiionOfString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/RemoveDuplicate_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/RemoveDuplicate_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/ReverseSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/ReverseSentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestNGClasses/TestNGAnnotationsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNGClasses/TestNGAnnotationsDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Collections/SetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Collections/SetClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InterviewPractice/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InterviewPractice/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/EvenNo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/EvenNo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/NoOfWordsInSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/NoOfWordsInSentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/RepeatEachCharacterTwice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/RepeatEachCharacterTwice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LeetCode/SwipeDigitsToRightInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LeetCode/SwipeDigitsToRightInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Strings/ReverseString_Array.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,20 +103,20 @@
       <recent name="C:\Users\Shekhar\IdeaProjects\SeleniumDemo\src\test\LeetCodeArray" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="JavaInterviewPgms" />
       <recent name="LeetCode" />
       <recent name="Collections" />
       <recent name="Selenium" />
-      <recent name="JavaInterviewPgms" />
       <recent name="InterviewPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Practice">
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewPractice.Practice" />
+  <component name="RunManager" selected="Application.ReverseArray">
+    <configuration name="PrintDuplicatesInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaInterviewPgms.PrintDuplicatesInString" />
       <module name="MavenSampleProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewPractice.*" />
+          <option name="PATTERN" value="JavaInterviewPgms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,8 +124,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseArrayType_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.ReverseArrayType_1" />
+    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaInterviewPgms.ReverseArray" />
+      <module name="MavenSampleProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaInterviewPgms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseString_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.ReverseString_Array" />
+      <module name="MavenSampleProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwipeDigitsToRightInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.SwipeDigitsToRightInArray" />
       <module name="MavenSampleProject" />
       <extension name="coverage">
         <pattern>
@@ -128,38 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseArrayType_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.ReverseArrayType_2" />
+    <configuration name="pRACTICEjAVAPgms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.pRACTICEjAVAPgms" />
       <module name="MavenSampleProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.ReverseSentence" />
-      <module name="MavenSampleProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseSentenceType_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.ReverseSentenceType_1" />
-      <module name="MavenSampleProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,21 +264,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseArrayType_1" />
-      <item itemvalue="Application.ReverseArrayType_2" />
-      <item itemvalue="Application.ReverseSentenceType_1" />
-      <item itemvalue="Application.Practice" />
-      <item itemvalue="Application.ReverseSentence" />
+      <item itemvalue="Application.ReverseArray" />
+      <item itemvalue="Application.ReverseString_Array" />
+      <item itemvalue="Application.SwipeDigitsToRightInArray" />
+      <item itemvalue="Application.pRACTICEjAVAPgms" />
+      <item itemvalue="Application.PrintDuplicatesInString" />
       <item itemvalue="Maven.Maven TestNG Run" />
       <item itemvalue="TestNG.TestNGRun" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Practice" />
-        <item itemvalue="Application.ReverseSentenceType_1" />
-        <item itemvalue="Application.ReverseArrayType_2" />
-        <item itemvalue="Application.ReverseArrayType_1" />
-        <item itemvalue="Application.ReverseSentence" />
+        <item itemvalue="Application.ReverseArray" />
+        <item itemvalue="Application.pRACTICEjAVAPgms" />
+        <item itemvalue="Application.SwipeDigitsToRightInArray" />
+        <item itemvalue="Application.ReverseString_Array" />
+        <item itemvalue="Application.PrintDuplicatesInString" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +366,19 @@
       <workItem from="1769493820924" duration="2167000" />
       <workItem from="1769513795186" duration="684000" />
       <workItem from="1769601229613" duration="5716000" />
-      <workItem from="1769664424870" duration="6235000" />
+      <workItem from="1769664424870" duration="7182000" />
+      <workItem from="1769748761735" duration="1266000" />
+      <workItem from="1769766032895" duration="770000" />
+      <workItem from="1769850787867" duration="3999000" />
+      <workItem from="1769933333281" duration="819000" />
+      <workItem from="1770019641671" duration="3847000" />
+      <workItem from="1770620576470" duration="4135000" />
+      <workItem from="1770704575431" duration="1143000" />
+      <workItem from="1770793332015" duration="9425000" />
+      <workItem from="1770821714765" duration="6510000" />
+      <workItem from="1770831490827" duration="212000" />
+      <workItem from="1770872628559" duration="3527000" />
+      <workItem from="1770909416317" duration="65000" />
     </task>
     <task id="LOCAL-00001" summary="My 1st commit through Intellij">
       <option name="closed" value="true" />
@@ -495,7 +516,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769350133510</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="My 16th commit through Intellij">
+      <option name="closed" value="true" />
+      <created>1769710379842</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1769710379843</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +577,8 @@
     <MESSAGE value="My 13th commit through Intellij" />
     <MESSAGE value="My 14th commit through Intellij" />
     <MESSAGE value="My 15th commit through Intellij" />
-    <option name="LAST_COMMIT_MESSAGE" value="My 15th commit through Intellij" />
+    <MESSAGE value="My 16th commit through Intellij" />
+    <option name="LAST_COMMIT_MESSAGE" value="My 16th commit through Intellij" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
