@@ -2,7 +2,7 @@ package JavaInterviewPgms;
 
 public class PrintDuplicatesInString {
     public static void main(String[] args) {
-        String s="anandd";   //O/P--> an
+        String s="anandd";   //O/P--> and
         for(int i=0;i<s.length()-1;i++)
         {
             for(int j=i+1;j<s.length();j++)

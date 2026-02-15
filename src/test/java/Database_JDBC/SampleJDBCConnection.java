@@ -10,9 +10,9 @@ public class SampleJDBCConnection {
         // 1. Load JDBC Driver
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-//        //Step1: Load/register the Database driver
-//        Driver driverRef = new Driver();
-//        DriverManager.registerDriver(driverRef);
+        //Step1: Load/register the Database driver
+        Driver driverRef = new Driver();
+        DriverManager.registerDriver(driverRef);
 
         //Step2: Connect DB
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/shekharschema", "root", "$Company123$");

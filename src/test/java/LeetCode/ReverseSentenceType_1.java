@@ -2,7 +2,7 @@ package LeetCode;
 
 public class ReverseSentenceType_1 {
     public static void main(String[] args) {
-        String s = "My Name is Shekhar Anand";
+        String s = "Java is programming language";
         //yM emaN si rahkehS dnanA
         StringBuilder result=new StringBuilder();
         String[] sSplit=s.split(" ");

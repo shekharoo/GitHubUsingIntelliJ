@@ -4,29 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23fd0870-ea36-4b25-ba0e-f6f96885d07a" name="Changes" comment="My 16th commit through Intellij">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/PrintDuplicatesInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/RemoveDuplicatesInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/ReverseArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/LongestCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/RemoveDuplicateInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/RemoveDuplicateInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/VowelLeftConsonantRight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SampleRunTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StreamPgms/FinfNamesWithA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StreamPgms/RemoveDuplicatesInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StreamPgms/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Strings/pRACTICEjAVAPgms.java" afterDir="false" />
+    <list default="true" id="23fd0870-ea36-4b25-ba0e-f6f96885d07a" name="Changes" comment="My 17th commit through Intellij">
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_Array_JavaPgms/CountOccurrences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_Array_JavaPgms/FindDuplicateElementsinanArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_Array_JavaPgms/FindFirstDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_Array_JavaPgms/FindMissingNumberinArray1toN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_Array_JavaPgms/FindSubarraywithGivenSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_Array_JavaPgms/MoveAllZerostoEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_Array_JavaPgms/RemoveDuplicatesfromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_Array_JavaPgms/RotateArrayLeftRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_Array_JavaPgms/SecondLargestElementinArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_String_JavaPgms/CheckIfOneStringisRotationofAnother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_String_JavaPgms/CountOccurrenceofEachWordinLargeParagraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_String_JavaPgms/ExtractNonDigitFromRegex_Type2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_String_JavaPgms/ExtractNumbersfromStringandSumThem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_String_JavaPgms/ExtractingNumberFromRegexString_Type1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_String_JavaPgms/FindAllPermutationsofaString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_String_JavaPgms/FindFirstNonRepeatedCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_String_JavaPgms/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_String_JavaPgms/MaskSensitiveDatainString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_String_JavaPgms/RemoveDuplicateCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_String_JavaPgms/RemoveSpecialCharactersFromString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_String_JavaPgms/ReverseWordsinaSentenceWithoutUsingsplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_String_JavaPgms/StringCompression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_String_JavaPgms/SubStringAndAppendPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IBM_String_JavaPgms/ValidateDateFormatUsingRegex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/SubstringExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestNGClasses/TestNGAnnotationsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNGClasses/TestNGAnnotationsDemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Collections/SetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Collections/SetClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InterviewPractice/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InterviewPractice/Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/EvenNo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/EvenNo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/NoOfWordsInSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/NoOfWordsInSentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Database_JDBC/SampleJDBCConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Database_JDBC/SampleJDBCConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/CountEachWordAndFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/CountEachWordAndFrequency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/PrintDuplicatesInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/PrintDuplicatesInString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/RemoveDuplicate_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/RemoveDuplicate_Array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/RepeatEachCharacterTwice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/RepeatEachCharacterTwice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LeetCode/SwipeDigitsToRightInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LeetCode/SwipeDigitsToRightInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Strings/ReverseString_Array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/StringRemoveSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaInterviewPgms/StringRemoveSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LeetCode/RemoveDuplicateInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LeetCode/RemoveDuplicateInString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LeetCode/ReverseSentenceType_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LeetCode/ReverseSentenceType_1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,13 +122,13 @@
       <recent name="InterviewPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseArray">
-    <configuration name="PrintDuplicatesInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaInterviewPgms.PrintDuplicatesInString" />
+  <component name="RunManager" selected="Application.ValidateDateFormatUsingRegex">
+    <configuration name="ExtractNonDigitFromRegex_Type2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IBM_String_JavaPgms.ExtractNonDigitFromRegex_Type2" />
       <module name="MavenSampleProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaInterviewPgms.*" />
+          <option name="PATTERN" value="IBM_String_JavaPgms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaInterviewPgms.ReverseArray" />
+    <configuration name="FindAllPermutationsofaString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IBM_String_JavaPgms.FindAllPermutationsofaString" />
       <module name="MavenSampleProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaInterviewPgms.*" />
+          <option name="PATTERN" value="IBM_String_JavaPgms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.ReverseString_Array" />
+    <configuration name="RemoveDuplicateCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IBM_String_JavaPgms.RemoveDuplicateCharacters" />
       <module name="MavenSampleProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="IBM_String_JavaPgms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwipeDigitsToRightInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.SwipeDigitsToRightInArray" />
+    <configuration name="RemoveSpecialCharactersFromString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IBM_String_JavaPgms.RemoveSpecialCharactersFromString" />
       <module name="MavenSampleProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
+          <option name="PATTERN" value="IBM_String_JavaPgms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pRACTICEjAVAPgms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.pRACTICEjAVAPgms" />
+    <configuration name="ValidateDateFormatUsingRegex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IBM_String_JavaPgms.ValidateDateFormatUsingRegex" />
       <module name="MavenSampleProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="IBM_String_JavaPgms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,21 +276,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseArray" />
-      <item itemvalue="Application.ReverseString_Array" />
-      <item itemvalue="Application.SwipeDigitsToRightInArray" />
-      <item itemvalue="Application.pRACTICEjAVAPgms" />
-      <item itemvalue="Application.PrintDuplicatesInString" />
+      <item itemvalue="Application.ExtractNonDigitFromRegex_Type2" />
+      <item itemvalue="Application.FindAllPermutationsofaString" />
+      <item itemvalue="Application.RemoveDuplicateCharacters" />
+      <item itemvalue="Application.ValidateDateFormatUsingRegex" />
+      <item itemvalue="Application.RemoveSpecialCharactersFromString" />
       <item itemvalue="Maven.Maven TestNG Run" />
       <item itemvalue="TestNG.TestNGRun" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseArray" />
-        <item itemvalue="Application.pRACTICEjAVAPgms" />
-        <item itemvalue="Application.SwipeDigitsToRightInArray" />
-        <item itemvalue="Application.ReverseString_Array" />
-        <item itemvalue="Application.PrintDuplicatesInString" />
+        <item itemvalue="Application.ValidateDateFormatUsingRegex" />
+        <item itemvalue="Application.RemoveSpecialCharactersFromString" />
+        <item itemvalue="Application.RemoveDuplicateCharacters" />
+        <item itemvalue="Application.FindAllPermutationsofaString" />
+        <item itemvalue="Application.ExtractNonDigitFromRegex_Type2" />
       </list>
     </recent_temporary>
   </component>
@@ -379,6 +391,14 @@
       <workItem from="1770831490827" duration="212000" />
       <workItem from="1770872628559" duration="3527000" />
       <workItem from="1770909416317" duration="65000" />
+      <workItem from="1770909494478" duration="2557000" />
+      <workItem from="1770918403773" duration="830000" />
+      <workItem from="1770919300346" duration="1785000" />
+      <workItem from="1770921187360" duration="2051000" />
+      <workItem from="1770958064048" duration="19137000" />
+      <workItem from="1771046401995" duration="633000" />
+      <workItem from="1771047599363" duration="16943000" />
+      <workItem from="1771128617375" duration="5865000" />
     </task>
     <task id="LOCAL-00001" summary="My 1st commit through Intellij">
       <option name="closed" value="true" />
@@ -524,7 +544,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769710379843</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="My 17th commit through Intellij">
+      <option name="closed" value="true" />
+      <created>1770909548412</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1770909548413</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,7 +606,8 @@
     <MESSAGE value="My 14th commit through Intellij" />
     <MESSAGE value="My 15th commit through Intellij" />
     <MESSAGE value="My 16th commit through Intellij" />
-    <option name="LAST_COMMIT_MESSAGE" value="My 16th commit through Intellij" />
+    <MESSAGE value="My 17th commit through Intellij" />
+    <option name="LAST_COMMIT_MESSAGE" value="My 17th commit through Intellij" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -650,6 +679,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/InterviewPractice/ComparableMainClass.java</url>
           <line>13</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/IBM_String_JavaPgms/FindAllPermutationsofaString.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

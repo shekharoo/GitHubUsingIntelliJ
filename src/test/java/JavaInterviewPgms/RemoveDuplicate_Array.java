@@ -26,7 +26,7 @@ public class RemoveDuplicate_Array {
         {
             s.add(i);
         }
-        System.out.println("After removing duplicate: "+s);
+        System.out.println("After removing duplicate using Hash Set: "+s);
         //Writing back to Integer Array
         int[] ar = new int[s.size()];
         int i=0;
@@ -39,21 +39,14 @@ public class RemoveDuplicate_Array {
     }
     public static void main(String[] args) {
         int[] ar={1, 1, 2, 2, 3, 3, 6,6,4, 4, 4,};
-//        int index = RemoveDuplicate_Array.removeDuplicate(ar);
-//        for(int i=0;i<index-1;i++)
-//        {
-//            System.out.print(ar[i]+",");
-//        }
-        //RemoveDuplicate_Array.removeDuplicateUsingHashSet(ar);
-        String s ="5";
-        int a=6;
-        int b =Integer.parseInt(s); //converted to int
-        System.out.println("b:"+b);
-        System.out.println(a+b);
-        System.out.println(a+s);
-        String c=String.valueOf(b); //Converted to String
-        System.out.println("Value of c: "+c);
-        System.out.println(a+c);
+        int index = RemoveDuplicate_Array.removeDuplicate(ar);
+        System.out.println("Printing unique array elements: ");
+        for(int i=0;i<index-1;i++)
+        {
+            System.out.print(ar[i]+",");
+        }
+        System.out.println(" ");
+        RemoveDuplicate_Array.removeDuplicateUsingHashSet(ar);
 
     }
 }

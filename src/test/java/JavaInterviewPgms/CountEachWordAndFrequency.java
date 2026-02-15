@@ -2,9 +2,13 @@ package JavaInterviewPgms;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
 public class CountEachWordAndFrequency {
+    /**
+     *
+     * Input: "apple"
+     * Output: {a=1, p=2, l=1, e=1}
+     */
 
     public static void countWordFrequency(String s)
     {

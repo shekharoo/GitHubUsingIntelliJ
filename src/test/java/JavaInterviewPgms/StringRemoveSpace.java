@@ -15,7 +15,7 @@ public class StringRemoveSpace {
     }
 
     public static void main(String[] args) {
-        StringRemoveSpace.removeSpace("Shekhar Anand");
+        StringRemoveSpace.removeSpace("Java Selenium");
     }
 
 }
